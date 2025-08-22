@@ -1,0 +1,35 @@
+# CODEOWNERS file for search-framework-574
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-api @Armor-test/unit-governance @Armor-test/dept-logging
+
+# Directory ownership
+/auth/ @Armor-test/squad-mobile @Armor-test/team-reporting
+/test/ @Armor-test/grp-integration @Armor-test/grp-api
+/src/ @Armor-test/team-security @Armor-test/dept-data @Armor-test/dept-security
+/vendor/ @Armor-test/squad-payments @Armor-test/team-security @Armor-test/team-frontend
+/build/ @Armor-test/unit-devops @Armor-test/squad-search @Armor-test/dept-reliability
+/models/ @Armor-test/grp-payments @Armor-test/dept-billing @Armor-test/dept-data
+/assets/ @Armor-test/grp-integration @Armor-test/squad-database @Armor-test/squad-api
+/plugins/ @Armor-test/dept-automation @Armor-test/team-frontend @Armor-test/squad-tooling
+/utils/ @Armor-test/dept-security @Armor-test/squad-research @Armor-test/grp-search
+/app/ @Armor-test/unit-cloud @Armor-test/squad-tooling
+
+# File type ownership
+*.cpp @Armor-test/grp-api @Armor-test/dept-ui
+*.proto @Armor-test/squad-search @Armor-test/squad-qa
+*.html @Armor-test/squad-product @Armor-test/squad-mobile
+*.sh @Armor-test/dept-api @Armor-test/squad-frontend
+*.h @Armor-test/grp-integration @Armor-test/team-security
+*.swift @Armor-test/squad-frontend @Armor-test/team-governance @Armor-test/dept-automation
+*.rb @Armor-test/unit-governance @Armor-test/dept-test
+*.kt @Armor-test/squad-database @Armor-test/squad-ux @Armor-test/grp-payments
+*.md @Armor-test/grp-ui @Armor-test/dept-test @Armor-test/team-research
+*.java @Armor-test/squad-product @Armor-test/dept-security
+*.xml @Armor-test/dept-automation @Armor-test/grp-payments @Armor-test/unit-cloud
+*.lock @Armor-test/team-core @Armor-test/squad-product
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
